@@ -48,12 +48,14 @@ with col3:
    st.caption('')
 
 
+########
+#  ROW 1
+########
 
 col1, col2 = st.columns(2)
 with col1:
     image = Image.open("images/space-banner.jpg")
     st.image(image)
-
 
 with col2:
     # st.markdown('#### Content Creation')
@@ -62,7 +64,7 @@ with col2:
     st.image(image)
 
     st.markdown("""
-                ### ChatGPT for content creation  
+                ### ChatGPT for commerical content  
                 ## 
                 ##### Here are some use cases:
 
@@ -78,11 +80,15 @@ with col2:
                 - **Technical Writing**: generating  documentation, user manuals,instructions.  
                 - **Copywriting**: creating landing pages, web content forarketing materials.  
                 - **Content Analysis**:  expanding existing content by providing additional insights and ideas.  
-                **remark : above  use baisc use basic completion without embedding.
+                **remark : above  use baisc use basic completion without embedding.  
+
+                more ...
                 
                """)
     
-
+########
+#  ROW 2
+########
 col1 , col2, col3 = st.columns(3)
 with col1:
     image = Image.open("images/wp-64.png")
@@ -95,7 +101,6 @@ with col1:
 
 
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
-
 
 with col2:
     image = Image.open("images/ads-64.png")
@@ -123,7 +128,9 @@ with col3:
 
 
 
-
+########
+#  ROW 2
+########
 
 col1 , col2, col3 = st.columns(3)
 with col1:
@@ -158,6 +165,197 @@ with col3:
                 """)
 
     st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+
+
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+########
+#  ROW 4
+########
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/analysis-64.png")
+    st.image(image)
+
+    st.markdown("""
+                ### ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
+                ## 
+                ##### Here are some use cases:
+
+                - **Extaction**: extract your define information.  
+
+                - **Customer service**: Analyzing customer feedbacks for improvement.  
+
+                - **Sentiment Analysis**: Classifying reviews as positive or negative.  
+
+                - **Political analysis**: Analyzing public opinion on political issues.  
+                - **Tourism**: Providing translations for tourists visiting.  
+                - **Education**: Translating educational materials for overseas students.  
+                - **Data storage**: JSON format for interoperability with other applications.  
+                - **Image Recognition**: Classifying images and object detection. 
+
+                more ...
+
+                
+               """)
+with col2:
+    image = Image.open("images/analysis-banner.jpg")
+    st.image(image)
+
+
+########
+#  ROW 5
+########
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/email-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Business Administration ]**  
+                - Classifying emails, identify intent, sugguest followup and extract information.  
+                - Prompt : 訊息分析 - 電子郵件內容撮要，分類，評估意圖，資料，建議行處理方法.txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/face-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Product Analysis]**  
+                - Brand monitoring by social media or product review determine overall sentiment ranking.  
+                - Prompt : 訊息分析 - 產品使用後評論或留言文 - 情感分析，分類及重點撮要.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/translate-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[HR resume screening]**  
+                - Extract & translate job applicant personal information, background, skills, and output Josn format.
+                - Prompt : 訊息分析 - 提取個人簡歷內容、翻譯 、 (Json) 格式輸出.txt  
+
+                """)
+
+    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+
+
+
+
+########
+#  ROW 6
+########
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/like-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[PR Public Relation]**  
+                - Analyzing media news and social opinion on company issues , write internal letter (mockup purpose).  
+                - Prompt : 事件評估 - 分析媒體資訊，撰寫內部公司通訊 (國泰事件).txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/money-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Account Department]**  
+                - Create an overdue tution fee payment reminder with overdue interest calucation.  
+                - Prompt : 訊息分析 - 產品使用後評論或留言文 - 情感分析，分類及重點撮要.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    st.caption('')
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/story-banner.jpg")
+    st.image(image)
+
+with col2:
+    # st.markdown('#### Content Creation')
+    # st.markdown('######  fast, consistent, versatile, high-quality, and cost-effective tool for content creation.')  
+    image = Image.open("images/creative-64.png")
+    st.image(image)
+
+    st.markdown("""
+                ### ChatGPT for Creative Story  
+                ## 
+                ##### Here are some use cases:
+
+                - **Comic book creation**: generate story ideas, character and dialogue .  
+
+                - **Writing prompts**: generate writing prompts for inspiration.  
+                
+                - **Storyboarding:**: create storyboards for films, animations.  
+                - **Artistic inspiration**: crafting persuasive email marketing.  
+                - **News Articles**: generate prompts or idea for AI tool such as midJourney.  
+
+                more ...
+                
+               """)
+    
+
+########
+#  ROW 5
+########
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/writer-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Outline Maker]**  
+                - By enter title and era of the story, generate Synopsis, story outline and createive story reveiew.  
+                - Prompt : implemented at Langchain 
+                """)
+    st_button('medium', 'https://storymaker-by-david.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/comic-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Comics Story Maker]**  
+                - generate story ideas, character names, and even dialogue for comic book creators.  
+                - Prompt : 文章製作 - MidJourney 故事大綱製作，場景，人物及對話.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/ppt-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Comic Book Presentation]**  
+                - Real example of using Comics Story Maker to generate idea, sences, character, dialogue .
+                - Prompt : N/A
+
+                """)
+
+    st_button('medium', 'https://story-ppt-david.streamlit.app/', 'Try it', icon_size)
+
 
 
 
