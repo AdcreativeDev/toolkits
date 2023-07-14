@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import os
-
+from functions import st_button, load_css
 
 st.set_page_config(
     page_title="🦜🔗 David's Tooklit",
@@ -16,8 +16,12 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-image = Image.open("course-banner-1920.jpg")
+image = Image.open("images/course-banner-1920.jpg")
 st.image(image, caption='created by MJ')
+
+# setup the CSS
+icon_size = 20
+load_css()
 
 
 col1, col2, col3 = st.columns(3)
@@ -47,14 +51,14 @@ with col3:
 
 col1, col2 = st.columns(2)
 with col1:
-    image = Image.open("space-banner.jpg")
+    image = Image.open("images/space-banner.jpg")
     st.image(image)
 
 
 with col2:
     # st.markdown('#### Content Creation')
     # st.markdown('######  fast, consistent, versatile, high-quality, and cost-effective tool for content creation.')  
-    image = Image.open("doc-64.png")
+    image = Image.open("images/doc-64.png")
     st.image(image)
 
     st.markdown("""
@@ -77,6 +81,46 @@ with col2:
 
                 
                """)
+    
+
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/wp-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Blog Posts]**  
+                - Create blog content posts by topics for daily marketing or seo ranking.  
+                - Prompt : N/A
+                """)
+
+
+    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/seo-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Online Marketing Campaign]**  
+                - Create SEM Ads statements (keywords, description) by business type.  
+                - Prompt : 網頁製作 - 編寫新建公司網站簡約文章.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/sales-doc-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Sales & Marketing Script]**  
+                - Create SEM Ads statements (keywords, description) by business type.  
+                - Prompt : 商業應用 - 市場推廣， 編寫銷售文章.txt
+                """)
+
+    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+
+
+
 # with col3:
 #    st.caption('col3')
 
