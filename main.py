@@ -78,7 +78,7 @@ with col2:
                 - **Technical Writing**: generating  documentation, user manuals,instructions.  
                 - **Copywriting**: creating landing pages, web content forarketing materials.  
                 - **Content Analysis**:  expanding existing content by providing additional insights and ideas.  
-
+                **remark : above  use baisc use basic completion without embedding.
                 
                """)
     
@@ -94,7 +94,7 @@ with col1:
                 """)
 
 
-    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
 
 
 with col2:
@@ -117,7 +117,49 @@ with col3:
                 - Prompt : 商業應用 - 市場推廣， 編寫銷售文章.txt
                 """)
 
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+
+
+
+
+
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/test-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[MC Test maker]**  
+                - Generate a Multiple Choice Test with question and answer by user given content.  
+                - Prompt : 問與答 - 按提供文本生成測驗試題.txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/questionnaire-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Questionnaire Maker]**  
+                - Create a series of question for basic understanding by age, output in Json format  .  
+                - Prompt : 問與答 - 環境與物件認知問卷.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/happy-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Causual Writer]**  
+                - Create a 300 words in english and chinese to Uplift Your Happiness Level by emtions.  
+                - Prompt : 文章製作 - 每天開心300字文章生成
+                """)
+
     st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+
+
 
 
 
