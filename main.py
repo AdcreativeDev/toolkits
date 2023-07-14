@@ -98,7 +98,7 @@ with col1:
 
 
 with col2:
-    image = Image.open("images/seo-64.png")
+    image = Image.open("images/ads-64.png")
     st.image(image)
     st.markdown("""
                 #### **:blue[Online Marketing Campaign]**  
