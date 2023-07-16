@@ -342,7 +342,7 @@ with col2:
                 - Prompt : 文章製作 - MidJourney 故事大綱製作，場景，人物及對話.txt
                 """)
 
-    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+    st_button('medium', 'https://storymaker-by-david.streamlit.app/', 'Try it', icon_size)
 
 with col3:
     image = Image.open("images/ppt-64.png")
@@ -355,6 +355,372 @@ with col3:
                 """)
 
     st_button('medium', 'https://story-ppt-david.streamlit.app/', 'Try it', icon_size)
+
+
+st.markdown("""
+            ## 
+            ##
+            ##
+            ##
+
+""")
+
+
+
+########
+#  ROW 4
+########
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/analysis-64.png")
+    st.image(image)
+
+    st.markdown("""
+                ### ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
+                ## 
+                ##### Here are some use cases:
+
+                - **Extaction**: extract your define information.  
+
+                - **Customer service**: Analyzing customer feedbacks for improvement.  
+
+                - **Sentiment Analysis**: Classifying reviews as positive or negative.  
+
+                - **Political analysis**: Analyzing public opinion on political issues.  
+                - **Tourism**: Providing translations for tourists visiting.  
+                - **Education**: Translating educational materials for overseas students.  
+                - **Data storage**: JSON format for interoperability with other applications.  
+                - **Image Recognition**: Classifying images and object detection. 
+
+                more ...
+
+                
+               """)
+with col2:
+    image = Image.open("images/analysis-banner.jpg")
+    st.image(image)
+
+
+st.markdown("""
+            ## 
+            ##
+
+""")
+            
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/email-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Business Administration ]**  
+                - Classifying emails, identify intent, sugguest followup and extract information.  
+                - Prompt : 訊息分析 - 電子郵件內容撮要，分類，評估意圖，資料，建議行處理方法.txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/face-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Product Analysis]**  
+                - Brand monitoring by social media or product review determine overall sentiment ranking.  
+                - Prompt : 訊息分析 - 產品使用後評論或留言文 - 情感分析，分類及重點撮要.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/translate-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[HR resume screening]**  
+                - Extract & translate job applicant personal information, background, skills, and output Josn format.
+                - Prompt : 訊息分析 - 提取個人簡歷內容、翻譯 、 (Json) 格式輸出.txt  
+
+                """)
+
+    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+
+
+
+
+
+################################################################
+#  Business Automation 
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/website-banner.jpg")
+    st.image(image)
+with col2:
+    image = Image.open("images/research-64.png")
+    st.image(image)
+
+    st.markdown("""
+                ### Business Automation -  Proposal , Market research and website content 
+                ## 
+                ##### Here are some use cases:
+
+                - **Proposal writing**: generating proposal drafts by providing suggestions.  
+
+                - **Market Research**: identifying trends, patterns, and insights.  
+
+                - **Competitive Analysis**: analyze competitors, strengths and weaknesses.  
+
+                - **Website content**: generate product descriptions,optimized for search engines.  
+                - **Blog posts**: identifying trending topics and generating new ideas for blog posts.  
+                - **Landing pages**: optimized for conversions and provide a clear call-to-action .  
+
+                more ...
+
+                
+               """)
+
+st.markdown("""
+            ## 
+            ##
+
+""")
+
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/target-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Market Research & SWOT]**  
+                - Generate marketing research, use cases, Preparation procedures and Swot analysis  
+                - Prompt : 商業自動化 - 市場分析、創業籌備要求、機會探討 ( chatgpt, langchain and zapier).txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/Proposal-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Proposal  Generator]**  
+                - Generate IT services providing solution for popular use case  using AI and ChatGPT by business sector.  
+                - Prompt : 商業自動化 - 編寫自動化服務(根據行業）技術要求分析.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/website-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Website Content Generator]**  
+                -  Create Landing page, About Us page, Service Summary page and Why Choose us page by busines type.  
+                - Prompt : 商業自動化 - 編寫公司網頁內容文章 (front page, about us, services, contact us).txt  
+
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+
+
+
+################################################################
+#  Event Planning
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/event-banner.jpg")
+    st.image(image)
+
+with col2:
+    image = Image.open("images/research-64.png")
+    st.image(image)
+    st.markdown("""
+            ### ChatGPT for event planning 
+            ## 
+            ##### Here are some use cases:
+
+            - **Generating ideas**: themes, activities, and entertainment based on goals.  
+
+            - **Recommendations**:  venues, catering and  suppliers based on the budget.  
+
+            - **Marketing**: promotion strategies,  social media  and email marketing.  
+
+            - **Real-time updates**: logistics, schedule changes and transportation arrangements.  
+            - **Customer Support**:  handling complaints or issues that arise during the event.  
+            - **Post-event surveys**: gathering feedback to improve future events.  
+
+            more ...
+
+            
+            """)
+
+
+
+
+st.markdown("""
+            ## 
+            ##
+
+""")
+
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/event-proposal-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Event Proposal Generator]**  
+                - Theme inspiration, Proposed Venue, Time Schedule, Online Marketing Strategy, Sponsorship, Rundown, venue.
+                - Prompt : 商業應用 - 編寫活動策劃建議書，主題特色，規劃時間表，活動場地.txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/manpower-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[event day rundown and manpower allocation]**  
+                - Generate detail daily rundown (Preparation, Live, and Post. activities), include tasks and manpower.  
+                - Prompt : 商業應用 - 編寫活動日流程 ，人手安排.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/risk-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Event Risk assessment]**  
+                - discovery of possible risks, available actions , arrange manpower to handle this problem.  
+                - Prompt : 商業應用 - 編寫活動風險管理評估.txt  
+
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+
+
+
+
+################################################################
+#  Ask your File 
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/research-64.png")
+    st.image(image)
+    st.markdown("""
+            ### Query your Private Documents
+            ## 
+            ##### Here are some use cases:
+
+            - **Extraction**: Searching for specific data or information.  
+
+            - **Searching**:  Searching for specific tables or figures.  
+                
+            - **Marketing**: promotion strategies,  social media  and email marketing.  
+
+            - **Real-time updates**: logistics, schedule changes and transportation arrangements.  
+            - **Customer Support**:  handling complaints or issues that arise during the event.  
+            - **Post-event surveys**: gathering feedback to improve future events.  
+
+            more ...
+
+            
+            """)
+
+with col2:
+    image = Image.open("images/import_banner.jpg")
+    st.image(image)
+
+
+
+
+
+st.markdown("""
+            ## 
+            ##
+
+""")
+
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/event-proposal-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Event Proposal Generator]**  
+                - Theme inspiration, Proposed Venue, Time Schedule, Online Marketing Strategy, Sponsorship, Rundown, venue.
+                - Prompt : 商業應用 - 編寫活動策劃建議書，主題特色，規劃時間表，活動場地.txt
+                """)
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/manpower-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[event day rundown and manpower allocation]**  
+                - Generate detail daily rundown (Preparation, Live, and Post. activities), include tasks and manpower.  
+                - Prompt : 商業應用 - 編寫活動日流程 ，人手安排.txt
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/risk-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Event Risk assessment]**  
+                - discovery of possible risks, available actions , arrange manpower to handle this problem.  
+                - Prompt : 商業應用 - 編寫活動風險管理評估.txt  
+
+                """)
+
+    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
