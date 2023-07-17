@@ -60,11 +60,11 @@ with col1:
 with col2:
     # st.markdown('#### Content Creation')
     # st.markdown('######  fast, consistent, versatile, high-quality, and cost-effective tool for content creation.')  
-    image = Image.open("images/doc-64.png")
-    st.image(image)
+    # image = Image.open("images/doc-64.png")
+    # st.image(image)
 
     st.markdown("""
-                ### ChatGPT for commerical content  
+                # ChatGPT for commerical content  
                 ## 
                 ##### Here are some use cases:
 
@@ -181,11 +181,11 @@ st.markdown("""
 
 col1, col2 = st.columns(2)
 with col1:
-    image = Image.open("images/analysis-64.png")
-    st.image(image)
+    # image = Image.open("images/analysis-64.png")
+    # st.image(image)
 
     st.markdown("""
-                ### ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
+                # ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
                 ## 
                 ##### Here are some use cases:
 
@@ -297,11 +297,11 @@ with col1:
 with col2:
     # st.markdown('#### Content Creation')
     # st.markdown('######  fast, consistent, versatile, high-quality, and cost-effective tool for content creation.')  
-    image = Image.open("images/creative-64.png")
-    st.image(image)
+    # image = Image.open("images/creative-64.png")
+    # st.image(image)
 
     st.markdown("""
-                ### ChatGPT for Creative Story  
+                # ChatGPT for Creative Story  
                 ## 
                 ##### Here are some use cases:
 
@@ -373,11 +373,11 @@ st.markdown("""
 
 col1, col2 = st.columns(2)
 with col1:
-    image = Image.open("images/analysis-64.png")
-    st.image(image)
+    # image = Image.open("images/analysis-64.png")
+    # st.image(image)
 
     st.markdown("""
-                ### ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
+                # ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
                 ## 
                 ##### Here are some use cases:
 
@@ -464,11 +464,11 @@ with col1:
     image = Image.open("images/website-banner.jpg")
     st.image(image)
 with col2:
-    image = Image.open("images/research-64.png")
-    st.image(image)
+    # image = Image.open("images/research-64.png")
+    # st.image(image)
 
     st.markdown("""
-                ### Business Automation -  Proposal , Market research and website content 
+                # Business Automation -  Proposal , Market research and website content 
                 ## 
                 ##### Here are some use cases:
 
@@ -550,10 +550,8 @@ with col1:
     st.image(image)
 
 with col2:
-    image = Image.open("images/research-64.png")
-    st.image(image)
     st.markdown("""
-            ### ChatGPT for event planning 
+            # ChatGPT for event planning 
             ## 
             ##### Here are some use cases:
 
@@ -588,7 +586,7 @@ with col1:
     st.markdown("""
                 #### **:blue[Event Proposal Generator]**  
                 - Theme inspiration, Proposed Venue, Time Schedule, Online Marketing Strategy, Sponsorship, Rundown, venue.
-                - Prompt : 商業應用 - 編寫活動策劃建議書，主題特色，規劃時間表，活動場地.txt
+                - Prompt : 商業應用 - 活動策劃建議書，主題，時間表，活動場地.txt
                 """)
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
 
@@ -620,6 +618,91 @@ with col3:
 
 
 
+################################################################
+#  Access and Query the interet 
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown("""
+            # Explore the Internet
+            ## 
+            ##### Here are some use cases:
+
+            - **Finding answers**: Ask FAQ questions.  
+
+            - **Troubleshooting**: Searching solution for technical issues.  
+                
+            - **Requesting information**: Applying for job positions.  
+
+            - **Law**: getting updates on latest policy .  
+            - **Insurance**: find protection amount ? What Illness Covered.  
+
+            more ...
+
+            
+            """)
+
+with col2:
+    image = Image.open("images/internet-banner.jpg")
+    st.image(image)
+
+
+
+
+
+st.markdown("""
+            ## 
+            ##
+
+""")
+
+col1 , col2, col3 = st.columns(3)
+with col1:
+    image = Image.open("images/website-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Website Reader]**  
+                - Enter Url of Website, and you can Query information about this web content. Reference WebSite: Governement, Insurance policy, Service charges, user manual ...
+                - Prompt : You provide. Use Vector DB and Langchain implementation.
+                """)
+    st_button('medium', 'https://website-reader.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/google-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Google Search]**  
+                - Finding specific information about a topic, such as historical events, scientific concepts, or current events or Seeking advice or opinions  
+                - Prompt : You provide. Use Vector DB,  Langchain and Serpapi implementation.
+                """)
+
+    st_button('medium', 'https://search-by-david.streamlit.app/', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/fin-question-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Stock Research Use Case]**  
+                - With your given financial questions, ask Google and LLM to research company background, competitors and performance before making a purchase decisionm.  
+                - Prompt : You provide. Use Langchain and Serpapi implementation.
+
+                """)
+
+    st_button('medium', 'https://search-finance-news.streamlit.app', 'Try it', icon_size)
+
+
+
+
 
 ################################################################
 #  Ask your File 
@@ -635,10 +718,10 @@ st.markdown("""
 
 col1, col2 = st.columns(2)
 with col1:
-    image = Image.open("images/research-64.png")
-    st.image(image)
+    # image = Image.open("images/research-64.png")
+    # st.image(image)
     st.markdown("""
-            ### Query your Private Documents
+            # Query your Private Documents
             ## 
             ##### Here are some use cases:
 
