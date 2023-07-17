@@ -705,7 +705,7 @@ with col3:
 
 
 ################################################################
-#  Ask your File 
+#  Ask your Files 
 ################################################################
 
 st.markdown("""
@@ -721,7 +721,7 @@ with col1:
     # image = Image.open("images/research-64.png")
     # st.image(image)
     st.markdown("""
-            # Query your Private Documents
+            # Chat your Documents
             ## 
             ##### Here are some use cases:
 
@@ -739,7 +739,9 @@ with col1:
 
             
             """)
-
+    st.caption(""" :red[remark : **Do not upload data with confidential information !!!!!]  
+                Using Local LLM, embedding and vector Storage can protect data privacy . 
+                """)
 with col2:
     image = Image.open("images/import_banner.jpg")
     st.image(image)
@@ -756,38 +758,38 @@ st.markdown("""
 
 col1 , col2, col3 = st.columns(3)
 with col1:
-    image = Image.open("images/event-proposal-64.png")
+    image = Image.open("images/txt-64.png")
     st.image(image)
     st.markdown("""
-                #### **:blue[Event Proposal Generator]**  
-                - Theme inspiration, Proposed Venue, Time Schedule, Online Marketing Strategy, Sponsorship, Rundown, venue.
-                - Prompt : 商業應用 - 編寫活動策劃建議書，主題特色，規劃時間表，活動場地.txt
+                #### **:blue[Ask your (txt) file]**  
+                - Upload your text file and ask question about the content.
+                - Sample test Data file : office-automation.txt
                 """)
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
 
 
 with col2:
-    image = Image.open("images/manpower-64.png")
+    image = Image.open("images/csv-64.png")
     st.image(image)
     st.markdown("""
-                #### **:blue[event day rundown and manpower allocation]**  
-                - Generate detail daily rundown (Preparation, Live, and Post. activities), include tasks and manpower.  
-                - Prompt : 商業應用 - 編寫活動日流程 ，人手安排.txt
+                #### **:blue[Ask your (CSV) file]**  
+                - Upload your text file and ask question (in structure query format) about the content.
+                - Sample test Data file : client-orders.csv
                 """)
 
-    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+    st_button('medium', 'https://simple-csv-reader.streamlit.app', 'Try it', icon_size)
 
 with col3:
-    image = Image.open("images/risk-64.png")
+    image = Image.open("images/pdf-64.png")
     st.image(image)
     st.markdown("""
-                #### **:blue[Event Risk assessment]**  
-                - discovery of possible risks, available actions , arrange manpower to handle this problem.  
-                - Prompt : 商業應用 - 編寫活動風險管理評估.txt  
+                #### **:blue[Ask your (PDF)]**  
+                - Upload your text file and ask question (in plain english) about the content.
+                - Sample test Data file : job_post_01.pdf
 
                 """)
 
-    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+    st_button('medium', 'https://pdf-chat.streamlit.app', 'Try it', icon_size)
 
 
 
