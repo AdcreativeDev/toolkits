@@ -762,7 +762,7 @@ with col1:
     st.image(image)
     st.markdown("""
                 #### **:blue[Ask your (txt) file]**  
-                - Upload your text file and ask question about the content.
+                - Upload your TXT file and ask question (in plain english) about the content.
                 - Sample test Data file : office-automation.txt
                 """)
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
@@ -773,7 +773,7 @@ with col2:
     st.image(image)
     st.markdown("""
                 #### **:blue[Ask your (CSV) file]**  
-                - Upload your text file and ask question (in structure query format) about the content.
+                - Upload your CSV file and ask question (in structure format) related to content.
                 - Sample test Data file : client-orders.csv
                 """)
 
@@ -784,7 +784,7 @@ with col3:
     st.image(image)
     st.markdown("""
                 #### **:blue[Ask your (PDF)]**  
-                - Upload your text file and ask question (in plain english) about the content.
+                - Upload your (PDF) file and ask question (in plain english) about the content.
                 - Sample test Data file : job_post_01.pdf
 
                 """)
@@ -794,8 +794,225 @@ with col3:
 
 
 
+################################################################
+#  Data Analysis
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
 
 
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/data-analysis-banner.jpg")
+    st.image(image)
+
+
+with col2:
+    # image = Image.open("images/research-64.png")
+    # st.image(image)
+    st.markdown("""
+            # Data Insight by Pandas + ChatGPT
+            ## 
+            ##### Here are some use cases:
+
+            - **Insights**: Answering questions about data.  
+
+            - **visualizations**: Generate chart in Pandas DataFrame.  
+                
+            - **Data cleaning**: Handle missing or invalid data.  
+
+            - **Trends and patterns**: identifying correlations or anomalies.  
+            - **Automating workflows:**:  providing code snippets for common tasks.  
+
+            more ...
+
+            
+            """)
+    st.caption(""" :red[remark : **Do not upload data with confidential information !!!!!]  
+                Using Local LLM, embedding and vector Storage can protect data privacy . 
+                """)
+
+
+
+
+st.markdown("""
+            ## 
+            ##
+
+""")
+
+col1 , col2, col3 , col4 = st.columns(4)
+with col1:
+    image = Image.open("images/calendar-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Study Plan Summarization]**  
+                - ChatGPT provide data Summarization for common question and answer.
+                - Sample test Data file : study.csv
+                """)
+    st_button('medium', 'https://ask-studyplan.streamlit.app/', 'Try it', icon_size)
+
+
+with col2:
+    image = Image.open("images/orders-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Purchase Order Summarization]**  
+                - Upload your CSV file and ask question (in structure format) related to content.
+                - Sample test Data file : client-orders.csv
+                """)
+    
+    st_button('medium', 'https://simple-csv-reader.streamlit.app', 'Try it', icon_size)
+
+with col3:
+    image = Image.open("images/sqldb-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[High performance by Sql Datase]**  
+                - Just Upload any CSV, your Query will transform to SQL Query for high performance.
+                - Sample test Data file : Any CSV
+
+                """)
+
+    st_button('medium', 'https://csv-sqldb.streamlit.app/', 'Try it', icon_size)
+
+
+
+with col4:
+    image = Image.open("images/pandas-64.png")
+    st.image(image)
+    st.markdown("""
+                #### **:blue[Smart Query by Pandas AI]**  
+                - Using plain english query with Pandas AI create the Structure SQL Query.
+                - Sample test Data file : titanic.csv
+
+                """)
+
+    st_button('medium', 'https://smart-csv.streamlit.app/', 'Try it', icon_size)
+
+
+
+
+
+
+
+
+
+
+################################################################
+#  News API extract and summary
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    # image = Image.open("images/research-64.png")
+    # st.image(image)
+    st.markdown("""
+            # News Extraction and Classification 
+            ## 
+            ##### Features:
+
+            - **News API**: call RestAPI endpoint return news title and story Url.  
+
+            - **web scraping**: Extract and download content of website.  
+                
+            - **Pinecone**: create vectors and embedding.  
+
+            - **Summarize**: Extract the main points.  
+
+            more ...
+            
+            """)
+    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
+with col2:
+    image = Image.open("images/news-extract-banner.jpg")
+    st.image(image)
+
+################################################################
+#  Product Recommnation
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/news-extract-banner2.jpg")
+    st.image(image)
+
+with col2:
+    # image = Image.open("images/research-64.png")
+    # st.image(image)
+    st.markdown("""
+            # Product Recommendations 
+            ## 
+            ##### Features:
+
+            - **Embedding**: Create embedding for Customer Order, Product and enquiry.  
+
+            - **Similarity Search**: matched Customer Orders and Products.  
+                
+            - **Recommendations**: create the matching recommendations
+
+            more ...
+            
+            """)
+    st_button('medium', 'https://recommend-cs.streamlit.app/', 'Try it', icon_size)
+
+
+################################################################
+#  Data visualization
+################################################################
+
+st.markdown("""
+            ## 
+            ##
+            ##
+
+""")
+
+
+col1, col2 = st.columns(2)
+with col1:
+    # image = Image.open("images/research-64.png")
+    # st.image(image)
+    st.markdown("""
+            # Data visualization
+            ## 
+            ##### Features:
+
+            - **UI/UX**: Dashbord style for better nagviation.  
+
+            - **Chart**: figure presentation with dynamic update.  
+                
+            - **Recommendations**: create NLP 
+
+            more ...
+            
+            """)
+    st_button('medium', 'https://xls-loader.streamlit.app/', 'Try it', icon_size)
+
+with col2:
+    image = Image.open("images/chart-ui-banner.jpg")
+    st.image(image)
 
 
 
