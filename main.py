@@ -433,7 +433,7 @@ with col2:
     st.image(image)
     st.markdown("""
                 #### **:blue[Proposal  Generator]**  
-                - Generate IT services providing solution for popular use case  using AI and ChatGPT by business sector.  
+                - Based on User requirement, generate a detail proposal for Business Automation with creative services and solution to targret current popular use case using AI, ChatGPT.  
                 - Prompt : 商業自動化 - 編寫自動化服務(根據行業）技術要求分析.txt
                 """)
 
