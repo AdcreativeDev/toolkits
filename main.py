@@ -260,7 +260,7 @@ with col1:
     image = Image.open("images/like-64.png")
     st.image(image)
     st.markdown("""
-                #### **:blue[PR Public Relation]**  
+                #### **:blue[Public Relation]**  
                 - Analyzing media news and social opinion on company issues , write internal letter (mockup purpose).  
                 - Prompt : 事件評估 - 分析媒體資訊，撰寫內部公司通訊 (國泰事件).txt
                 """)
