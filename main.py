@@ -107,7 +107,7 @@ with col2:
     st.image(image)
     st.markdown("""
                 #### **:blue[Online Marketing Campaign]**  
-                - Create SEM Ads statements (keywords, description) by business type.  
+                - Create SEM Ads statements (keywords, description).  
                 - Prompt : 商業應用 - 市場推廣， SEM AdsWord 搜尋引擎...txt
 
                 """)
