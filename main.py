@@ -844,17 +844,19 @@ with col1:
     # image = Image.open("images/research-64.png")
     # st.image(image)
     st.markdown("""
-            # News Extraction and Classification 
+            # News Scraping and Summarize 
             ## 
             ##### Features:
 
-            - **News API**: call RestAPI endpoint return news title and story Url.  
+            - **News API**: Live feed capture by invoke RestAPI endpoints.  
 
-            - **web scraping**: Extract and download content of website.  
+            - **web scraping**: Extract valuebale website content.  
                 
             - **Pinecone**: create vectors and embedding.  
 
             - **Summarize**: Extract the main points.  
+
+            - **Extraction**: Provide main ideas and keywords .  
 
             more ...
             
@@ -888,12 +890,15 @@ with col2:
             # Product Recommendations 
             ## 
             ##### Features:
+            - **Database Access**: Collect various data sources.  
 
             - **Embedding**: Create embedding for Customer Order, Product and enquiry.  
 
-            - **Similarity Search**: matched Customer Orders and Products.  
+            - **Similarity Search**: Perform matching Customer Orders and Products.  
                 
-            - **Recommendations**: create the matching recommendations
+            - **Recommendations**: Create the matching recommendations.  
+
+            - **Summarize**: Create final statement with product and discount.  
 
             more ...
             
