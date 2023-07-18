@@ -221,7 +221,7 @@ with col1:
     st.markdown("""
                 #### **:blue[Business Administration ]**  
                 - Classifying emails, identify intent, sugguest followup and extract information.  
-                - Prompt : 訊息分析 - 電子郵撮要，分類，評估意圖，建議行處理方法.txt
+                - Prompt : 訊息分析 - 電子郵撮要，分類，評估意圖，處理方法.txt
                 """)
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
 
@@ -232,7 +232,7 @@ with col2:
     st.markdown("""
                 #### **:blue[Product Analysis]**  
                 - Brand monitoring by social media or product review determine overall sentiment ranking.  
-                - Prompt : 訊息分析 - 產品使用後評論或留言 - 情感分析，分類及重點撮要.txt
+                - Prompt : 訊息分析 - 產品使用後評論，情感分析，重點撮要.txt
                 """)
 
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
