@@ -4,7 +4,7 @@ import os
 from functions import st_button, load_css
 
 st.set_page_config(
-    page_title="🦜🔗 David's Tooklit",
+    page_title="🦜🔗 David's Basic Tooklit",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -34,11 +34,10 @@ with col2:
                 ##
                 ##
 
-                ## Empowering Conversation
+                ##  ....  Empowering Your Conversation
                 
-                #### Opening doors to a better future .... 
+                ###  Opening doors to a better future .... 
                 ## 
-                ##
                 ##
 
                 """)
@@ -96,11 +95,11 @@ with col1:
     st.markdown("""
                 #### **:blue[Blog Posts]**  
                 - Create blog content posts by topics for daily marketing or seo ranking.  
-                - Prompt : N/A
+                - Prompt : Embedded in program.
                 """)
 
 
-    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
+    st_button('medium', 'https://blog-maker.streamlit.app/', 'Try it', icon_size)
 
 with col2:
     image = Image.open("images/ads-64.png")
