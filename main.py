@@ -23,6 +23,10 @@ st.image(image, caption='created by MJ')
 icon_size = 20
 load_css()
 
+st.write('You can download the Prompt text and sample data files here:')
+st.write('prompt  : https://drive.google.com/drive/u/2/folders/1g4dY-98nV5gl4RUT5l0aNmdXBfW73k6v')
+st.write(' csv, txt, pdf file  : https://drive.google.com/drive/u/2/folders/1s3GLfc61m7a0AOzOThMrheoQDjjLcKrC')
+
 
 col1, col2, col3 = st.columns(3)
 with col1:
