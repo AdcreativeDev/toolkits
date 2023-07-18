@@ -868,7 +868,7 @@ with col2:
                 - Sample test Data file : client-orders.csv
                 """)
     
-    st_button('medium', 'https://simple-csv-reader.streamlit.app', 'Try it', icon_size)
+    st_button('medium', 'https://ask-orders-csv.streamlit.app/', 'Try it', icon_size)
 
 with col3:
     image = Image.open("images/sqldb-64.png")
