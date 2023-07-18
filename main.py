@@ -150,7 +150,7 @@ with col2:
     st.image(image)
     st.markdown("""
                 #### **:blue[Questionnaire Maker]**  
-                - Create a series of question for basic understanding by age, output in Json format  .  
+                - Create a series of question for basic understanding by age, output in Json format.  
                 - Prompt : 問與答 - 環境與物件認知問卷.txt
                 """)
 
