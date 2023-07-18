@@ -23,9 +23,6 @@ st.image(image, caption='created by MJ')
 icon_size = 20
 load_css()
 
-st.write('You can download the Prompt text and sample data files here:')
-st.write('prompt  : https://drive.google.com/drive/u/2/folders/1g4dY-98nV5gl4RUT5l0aNmdXBfW73k6v')
-st.write(' csv, txt, pdf file  : https://drive.google.com/drive/u/2/folders/1s3GLfc61m7a0AOzOThMrheoQDjjLcKrC')
 
 
 col1, col2, col3 = st.columns(3)
@@ -1022,6 +1019,9 @@ with col2:
 
 
 
+st.write('You can download the Prompt text and sample data files here:')
+st.write('prompt  : https://drive.google.com/drive/u/2/folders/1g4dY-98nV5gl4RUT5l0aNmdXBfW73k6v')
+st.write(' csv, txt, pdf file  : https://drive.google.com/drive/u/2/folders/1s3GLfc61m7a0AOzOThMrheoQDjjLcKrC')
 
 
 
@@ -1029,53 +1029,7 @@ with col2:
 
 
 
-
-
-
-# with col3:
-#    st.caption('col3')
-
+ 
     
-
-
-    # st.write('<p style="color:red;">Here is some red text</p>', 
-    #         unsafe_allow_html=True)
-    # st.write('<p style="font-size:26px; color:red;">Here is some red text</p>',
-    # unsafe_allow_html=True)
-    # # No \n or 2 space  - all in a line
-    # st.write("""Line AAAAAAAAA
-    #         Line BBBBB
-    #         Line CCCCCC
-    #         """)
-    # # \n - double line 
-    # st.write("""Line 1111111111
-    #         \n Line 222222222222
-    #         \n Line 33333333
-    #         """)
-    # # 2 space - only line feed
-    # st.write("""Line 1111111111  
-    #         Line 22222222222  
-    #         Line 33333333  
-    #         """)
-    
-    # st.write('## 2x# ')
-    # st.write('### 3x# ')
-    # st.write('### 4x# ')
-    # st.write("""
-    #          # 1x#
-    #          ## 2x#
-    #          ### 3x#
-    #          #### 4x#
-    #          """)
-    
-    # st.write('Here is some more **markdown** text. *And here is some more in italics*')
-
-    # # add a new line for next paragraph
-    # st.write("""
-    #          ### I really like using Markdown.
-
-    #         I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.I think I'll use it to format all of my documents from now on.
-             
-    #          """)
-
+ 
  
