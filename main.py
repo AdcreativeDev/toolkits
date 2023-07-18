@@ -119,7 +119,7 @@ with col3:
     st.image(image)
     st.markdown("""
                 #### **:blue[Sales & Marketing Script]**  
-                - Create SEM Ads statements (keywords, description) by business type.  
+                - Create detail product & service marketing script for promotion.  
                 - Prompt : 商業應用 - 市場推廣， 編寫銷售文章.txt
                 """)
 
