@@ -232,7 +232,7 @@ with col2:
     st.markdown("""
                 #### **:blue[Product Analysis]**  
                 - Brand monitoring by social media or product review determine overall sentiment ranking.  
-                - Prompt : 訊息分析 - 產品使用後評論或留言文 - 情感分析，分類及重點撮要.txt
+                - Prompt : 訊息分析 - 產品使用後評論或留言 - 情感分析，分類及重點撮要.txt
                 """)
 
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
