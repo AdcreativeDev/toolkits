@@ -221,7 +221,7 @@ with col1:
     st.markdown("""
                 #### **:blue[Business Administration ]**  
                 - Classifying emails, identify intent, sugguest followup and extract information.  
-                - Prompt : 訊息分析 - 電子郵件內容撮要，分類，評估意圖，資料，建議行處理方法.txt
+                - Prompt : 訊息分析 - 電子郵撮要，分類，評估意圖，建議行處理方法.txt
                 """)
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
 
