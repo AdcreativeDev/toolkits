@@ -340,7 +340,7 @@ with col2:
     st.markdown("""
                 #### **:blue[Comics Story Maker]**  
                 - generate story ideas, character names, and even dialogue for comic book creators.  
-                - Prompt : 文章製作 - MidJourney 故事大綱製作，場景，人物及對話.txt
+                - Prompt : MidJourney 故事大綱製作，場景，人物及對話.txt
                 """)
 
     st_button('medium', 'https://storymaker-by-david.streamlit.app/', 'Try it', icon_size)
@@ -365,84 +365,6 @@ st.markdown("""
             ##
 
 """)
-
-
-
-########
-#  ROW 4
-########
-
-col1, col2 = st.columns(2)
-with col1:
-    # image = Image.open("images/analysis-64.png")
-    # st.image(image)
-
-    st.markdown("""
-                # ChatGPT for Classification, Sentiment analysis, Translation & Formatting 
-                ## 
-                ##### Here are some use cases:
-
-                - **Extaction**: extract your define information.  
-
-                - **Customer service**: Analyzing customer feedbacks for improvement.  
-
-                - **Sentiment Analysis**: Classifying reviews as positive or negative.  
-
-                - **Political analysis**: Analyzing public opinion on political issues.  
-                - **Tourism**: Providing translations for tourists visiting.  
-                - **Education**: Translating educational materials for overseas students.  
-                - **Data storage**: JSON format for interoperability with other applications.  
-                - **Image Recognition**: Classifying images and object detection. 
-
-                more ...
-
-                
-               """)
-with col2:
-    image = Image.open("images/analysis-banner.jpg")
-    st.image(image)
-
-
-st.markdown("""
-            ## 
-            ##
-
-""")
-            
-col1 , col2, col3 = st.columns(3)
-with col1:
-    image = Image.open("images/email-64.png")
-    st.image(image)
-    st.markdown("""
-                #### **:blue[Business Administration ]**  
-                - Classifying emails, identify intent, sugguest followup and extract information.  
-                - Prompt : 訊息分析 - 電子郵件內容撮要，分類，評估意圖，資料，建議行處理方法.txt
-                """)
-    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
-
-
-with col2:
-    image = Image.open("images/face-64.png")
-    st.image(image)
-    st.markdown("""
-                #### **:blue[Product Analysis]**  
-                - Brand monitoring by social media or product review determine overall sentiment ranking.  
-                - Prompt : 訊息分析 - 產品使用後評論或留言文 - 情感分析，分類及重點撮要.txt
-                """)
-
-    st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
-
-with col3:
-    image = Image.open("images/translate-64.png")
-    st.image(image)
-    st.markdown("""
-                #### **:blue[HR resume screening]**  
-                - Extract & translate job applicant personal information, background, skills, and output Josn format.
-                - Prompt : 訊息分析 - 提取個人簡歷內容、翻譯 、 (Json) 格式輸出.txt  
-
-                """)
-
-    st_button('medium', 'https://import-2-vector.streamlit.app', 'Try it', icon_size)
 
 
 
