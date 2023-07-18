@@ -262,7 +262,7 @@ with col1:
     st.markdown("""
                 #### **:blue[Public Relation]**  
                 - Analyzing media news and social opinion on company issues , write internal letter (mockup purpose).  
-                - Prompt : 事件評估 - 分析媒體資訊，撰寫內部公司通訊 (國泰事件).txt
+                - Prompt : 事件評估 - 分析媒體資訊，撰寫內部公司通訊.txt
                 """)
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
 
@@ -273,7 +273,7 @@ with col2:
     st.markdown("""
                 #### **:blue[Account Department]**  
                 - Create an overdue tution fee payment reminder with overdue interest calucation.  
-                - Prompt : 商業應用 - 教育機構發出「逾期學費付款 + 逾期收費 通知」.txt
+                - Prompt : 商業應用 - 教育機構發出「逾期學費付款+逾期收費通知」.txt
                 """)
 
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
