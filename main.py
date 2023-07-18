@@ -108,7 +108,8 @@ with col2:
     st.markdown("""
                 #### **:blue[Online Marketing Campaign]**  
                 - Create SEM Ads statements (keywords, description) by business type.  
-                - Prompt : 網頁製作 - 編寫新建公司網站簡約文章.txt
+                - Prompt : 商業自動化 - 編寫公司網頁內容文章 (front page....txt
+
                 """)
 
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
