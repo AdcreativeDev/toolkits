@@ -273,7 +273,7 @@ with col2:
     st.markdown("""
                 #### **:blue[Account Department]**  
                 - Create an overdue tution fee payment reminder with overdue interest calucation.  
-                - Prompt : 商業應用 - 教育機構發出「逾期學費付款+逾期收費通知」.txt
+                - Prompt : 商業應用 - 發出「逾期學費付款+逾期收費通知」.txt
                 """)
 
     st_button('medium', 'https://prompt-runner.streamlit.app/', 'Try it', icon_size)
