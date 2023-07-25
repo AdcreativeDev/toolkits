@@ -42,6 +42,8 @@ with col2:
                 ##
 
                 """)
+    st.write('If you want to download all system Prompt files and sample data for the use case, please email me : andrew.cheung.cy@gmail.com')
+
 
     
 with col3:
@@ -978,9 +980,6 @@ with col2:
 
 
 
-st.write('You can download the Prompt text and sample data files here:')
-st.write('prompt  : https://drive.google.com/drive/u/2/folders/1g4dY-98nV5gl4RUT5l0aNmdXBfW73k6v')
-st.write(' csv, txt, pdf file  : https://drive.google.com/drive/u/2/folders/1s3GLfc61m7a0AOzOThMrheoQDjjLcKrC')
 
 
 
