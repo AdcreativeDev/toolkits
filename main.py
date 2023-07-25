@@ -4,7 +4,7 @@ import os
 from functions import st_button, load_css
 
 st.set_page_config(
-    page_title="🦜🔗 David's Basic Tooklit",
+    page_title="🦜🔗 Andrew Cheung Simple Tooklit",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -33,13 +33,10 @@ with col1:
 with col2:
     st.markdown("""
                 ##
-                ##
 
-                ##  ....  Empowering Your Conversation
+                ##  ....  Andrew Cheung Simple Tooklit
                 
                 ###  Opening doors to a better future .... 
-                ## 
-                ##
 
                 """)
     st.write('If you want to download all system Prompt files and sample data for the use case, please email me : andrew.cheung.cy@gmail.com')
