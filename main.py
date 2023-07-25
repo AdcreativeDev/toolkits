@@ -32,8 +32,6 @@ with col1:
 
 with col2:
     st.markdown("""
-                ##
-
                 ####  Empowering your company
                 #####  Opening doors to a better future
 
