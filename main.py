@@ -844,7 +844,7 @@ with col1:
     # image = Image.open("images/research-64.png")
     # st.image(image)
     st.markdown("""
-            # News Scraping and Summarize 
+            # News Scraping
             ## 
             ##### Features:
 
@@ -887,7 +887,7 @@ with col2:
     # image = Image.open("images/research-64.png")
     # st.image(image)
     st.markdown("""
-            # Product Recommendations 
+            # Product Recommend
             ## 
             ##### Features:
             - **Database Access**: Collect various data sources.  
@@ -912,10 +912,6 @@ with col2:
 
 col1, col2 = st.columns(2)
 with col1:
-    image = Image.open("images/cs-chatbot-1-banner.jpg")
-    st.image(image)
-
-with col2:
     st.markdown("""
             # CS Chatbot 
             ## 
@@ -931,6 +927,11 @@ with col2:
             
             """)
     st_button('medium', 'https://asking-chatbot-1.streamlit.app', 'Try it', icon_size)
+
+with col2:
+    image = Image.open("images/cs-chatbot-1-banner.jpg")
+    st.image(image)
+
 
 
 
@@ -949,6 +950,11 @@ st.markdown("""
 
 col1, col2 = st.columns(2)
 with col1:
+    image = Image.open("images/chart-ui-banner.jpg")
+    st.image(image)
+
+
+with col2:
     # image = Image.open("images/research-64.png")
     # st.image(image)
     st.markdown("""
@@ -966,10 +972,6 @@ with col1:
             
             """)
     st_button('medium', 'https://xls-loader.streamlit.app/', 'Try it', icon_size)
-
-with col2:
-    image = Image.open("images/chart-ui-banner.jpg")
-    st.image(image)
 
 
 
