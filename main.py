@@ -907,6 +907,35 @@ with col2:
 
 
 ################################################################
+#  Customer Service ChatBot
+################################################################
+
+col1, col2 = st.columns(2)
+with col1:
+    image = Image.open("images/cs-chatbot-1-banner.jpg")
+    st.image(image)
+
+with col2:
+    st.markdown("""
+            # CS Chatbot 
+            ## 
+            ##### Features:
+
+            - **7x24 Services**: servicing your client non-stop.  
+
+            - **Smart**: Understand your client need, response instantly.  
+                
+            - **Extension**: Can extend business functionalities (Enquiry, Complaint, Order and helpDesk)
+
+            more ...
+            
+            """)
+    st_button('medium', 'https://asking-chatbot-1.streamlit.app', 'Try it', icon_size)
+
+
+
+
+################################################################
 #  Data visualization
 ################################################################
 
