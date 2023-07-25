@@ -34,9 +34,8 @@ with col2:
     st.markdown("""
                 ##
 
-                ##  ....  Andrew Cheung Simple Tooklit
-                
-                ###  Opening doors to a better future .... 
+                ####  Empowering your company
+                #####  Opening doors to a better future
 
                 """)
     st.write('If you want to download all system Prompt files and sample data for the use case, please email me : andrew.cheung.cy@gmail.com')
