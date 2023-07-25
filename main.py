@@ -24,24 +24,14 @@ icon_size = 20
 load_css()
 
 
-
-col1, col2, col3 = st.columns(3)
-with col1:
-   st.caption('')
-
-
-with col2:
-    st.markdown("""
+st.markdown("""
                 ####  Empowering your company
                 #####  Opening doors to a better future
 
                 """)
-    st.write('If you want to download all system Prompt files and sample data for the use case, please email me : andrew.cheung.cy@gmail.com')
+st.write('If you want to download all system Prompt files and sample data for the use case, please email me : andrew.cheung.cy@gmail.com')
 
 
-    
-with col3:
-   st.caption('')
 
 
 ########
